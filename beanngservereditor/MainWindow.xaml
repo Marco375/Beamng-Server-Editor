@@ -1,0 +1,26 @@
+﻿<Window x:Class="beanngservereditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:beanngservereditor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="429" Width="710">
+	<Grid x:Name="Main" Margin="0,-15,0,4">
+		<Label Content="Select File" HorizontalAlignment="Left" Margin="32,19,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Margin="32,45,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="413" Height="18"/>
+		<Button x:Name="btnFilePath" Content="Select" HorizontalAlignment="Left" Margin="445,45,0,0" VerticalAlignment="Top" Width="62" Height="18" Click="Button_Click"/>
+		<Rectangle HorizontalAlignment="Left" Height="292" Margin="32,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="627"/>
+		<Label x:Name="lblName" Content="Server Name" HorizontalAlignment="Left" Margin="42,98,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="txtServerName" HorizontalAlignment="Left" Margin="42,124,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"/>
+		<Label x:Name="lblAuthKey" Content="Auth Key" HorizontalAlignment="Left" Margin="317,98,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="txtAuthKey" HorizontalAlignment="Left" Margin="317,124,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="304"/>
+		<Label x:Name="lblMax_Cars" Content="Max Cars" HorizontalAlignment="Left" Margin="42,159,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="lblMax_Players" Content="Max Players" HorizontalAlignment="Left" Margin="317,159,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="txtMax_Cars" HorizontalAlignment="Left" Margin="42,185,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"/>
+		<TextBox x:Name="txtMax_Players" HorizontalAlignment="Left" Margin="317,185,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"/>
+		<Label x:Name="lblMap" Content="Map" HorizontalAlignment="Left" Margin="42,239,0,0" VerticalAlignment="Top"/>
+		<ComboBox x:Name="cbxMap" HorizontalAlignment="Left" Margin="42,265,0,0" VerticalAlignment="Top" Width="196"/>
+		<Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="537,320,0,0" VerticalAlignment="Top" Width="84" Height="22" Click="btnSubmit_Click"/>
+	</Grid>
+</Window>
