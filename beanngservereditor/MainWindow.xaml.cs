@@ -241,6 +241,7 @@ namespace beanngservereditor
 					File.WriteAllLines(txtFilePath.Text,lines);
 
 				}
+				MessageBox.Show("Dis gedoen jou lui naai");
 			}
 
 		}
