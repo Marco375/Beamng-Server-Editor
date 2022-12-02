@@ -32,17 +32,17 @@ namespace beanngservereditor
 			InitializeComponent();
 			maps.Add("Automation Test Track","automation_test_track");
 			maps.Add("Cliff", "cliff");
-			maps.Add("Derby Arenas", "derby_arenas");
+			maps.Add("Derby Arenas", "derby");
 			maps.Add("East Coast, USA", "east_coast_usa");
-			maps.Add("ETK Driver Experience Center","etk_driver_experience-center");
-			maps.Add("Grid, Small, Pure", "grid_small_pure");
+			maps.Add("ETK Driver Experience Center","driver_training");
+			maps.Add("Grid, Small, Pure", "smallgrid");
 			maps.Add("Grid V2", "gridmap_v2");
 			maps.Add("Hirochi Raceway", "hirochi_raceway");
-			maps.Add("Industrial Site", "indutrial_site");
+			maps.Add("Industrial Site", "indutrial");
 			maps.Add("Italy", "italy");
 			maps.Add("Jungle Rock Island", "jungle_rock_island");
-			maps.Add("Small Island, USA", "small_island_usa");
-			maps.Add("Utah, USA", "utah_usa");
+			maps.Add("Small Island, USA", "small_island");
+			maps.Add("Utah, USA", "utah");
 			maps.Add("West Coast, USA", "west_coast_usa");
 
 			foreach (KeyValuePair<string, string> kvp in maps)
