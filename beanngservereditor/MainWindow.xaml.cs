@@ -236,12 +236,10 @@ namespace beanngservereditor
 					{
 						lines[h] = sMapLine;
 					}
-
 				  File.Delete(txtFilePath.Text);
 					File.WriteAllLines(txtFilePath.Text,lines);
-
 				}
-				MessageBox.Show("Dis gedoen jou lui naai");
+				MessageBox.Show("Updated");
 			}
 
 		}
